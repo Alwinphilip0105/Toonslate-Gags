@@ -13,7 +13,7 @@ response = ""
 while response not in opt:
     response = input("Would you like to go inside the Mineshaft?\nyes/no\n")
     if response == "yes":
-        print("You head into the Mineshaft. You hear grumbling sound of zombies,hissing sound of spidersand rattling of skeletons.\n")
+        print("You head into the Mineshaft. You hear grumbling sound of zombies,hissing sound of spiders and rattling of skeletons.\n")
     elif response == "no":
         print("You are not ready for this quest. Goodbye, " + name + ".")
         quit()
